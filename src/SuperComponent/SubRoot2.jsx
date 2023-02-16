@@ -4,5 +4,4 @@ const SubRoot2 = (props) => {
             <h1>SubRoot2 - {props.name} </h1>
     )         
 };
-
 export { SubRoot2 };
