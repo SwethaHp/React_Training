@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { SubRoot1 } from "./SuperComponent/SubRoot1";
+import { SubRoot2 } from "./SuperComponent/SubRoot2";
+import { SubRoot3 } from "./SuperComponent/SubRoot3";
+import { SubRoot4 } from "./SuperComponent/SubRoot4";
+import { SubRoot5 } from "./SuperComponent/SubRoot5";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SubRoot1 name1="Invoke SubRoot1"></SubRoot1>
+      <SubRoot2 name="Invoke SubRoot2 function"></SubRoot2>
+      <SubRoot3 name="Invoke SubRoot3 function"></SubRoot3>
+      <SubRoot4 name4="Invoke SubRoot4 function"></SubRoot4>
+      <SubRoot5 name="Invoke SubRoot5 function"></SubRoot5>
+    </>
   );
 }
 
